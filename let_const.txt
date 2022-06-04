@@ -1,0 +1,4 @@
+1) var lets you declare as many instances of a variable as you want and also reassign as much as you want, while let only lets you reassign but not redeclare a new variable with the same name.
+2) var can be redeclared and reassigned, but const cannot do either.
+3) let can be reassigned, but const cannot.
+4) hoisting occurs in the var naming, because the variable names are initialized before they are assigned, so we retrieve an undefined value when printed even if the variable is not actually assigned yet when the code is run.
